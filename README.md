@@ -95,7 +95,7 @@ php requirements.php
 
 3. 创建数据库, 如
 ```
-CREATE DATABASE cc DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE yii2adminlte DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 ```
 
 4. 初始化环境
@@ -134,6 +134,6 @@ location / {
     try_files $uri $uri/ /index.php?$args;
 }
 
-NOTE: This project is inspired by yii2-starter-kit, but I do not like its app directory structure and its some useless modules. I just need a clean advanced app with adminlte template to finish my job quickly, so it is created. 
+Note: This project is inspired by yii2-starter-kit, I just need a light and clean advanced-app with adminlte template.
 
 DEMO 后台管理账号
