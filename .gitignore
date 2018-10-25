@@ -41,3 +41,12 @@ phpunit.phar
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
+/storage/web/index.php
+/storage/web/index-test.php
+/storage/web/robots.txt
+/rest/web/index.php
+/rest/web/index-test.php
+/rest/web/robots.txt
+/wap/web/index.php
+/wap/web/index-test.php
+/wap/web/robots.txt

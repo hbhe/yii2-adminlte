@@ -119,11 +119,11 @@ php init
 ```
 5. 执行数据库初始化脚本
 ```
-cd console
 php yii migrate --migrationPath=@yii/rbac/migrations                        // yii migrate/down 3 --migrationPath=@yii/rbac/migrations          
 php yii migrate --migrationPath=@mdm/admin/migrations                       // yii migrate/down 2  --migrationPath=@mdm/admin/migrations
 php yii migrate --migrationPath=@noam148/imagemanager/migrations            // yii migrate/down 2 --migrationPath=@noam148/imagemanager/migrations
 php yii migrate/up --migrationPath=@common/modules/content/migrations 
+php yii migrate/up --migrationPath=@hbhe/settings/migrations
 php yii migrate/up
 ```
 
@@ -137,5 +137,9 @@ location / {
 Note: This project is inspired by yii2-starter-kit, I just need a light and clean advanced-app with adminlte template.
 
 
-DEMO 地址
-后台管理账号
+DEMO 地址:  yii2-adminlte-backend.mitoto.cn
+后台管理账号： webmaster
+密码: webmaster
+
+yii2-adminlte-storage.mitoto.cn
+yii2-adminlte-api.mitoto.cn

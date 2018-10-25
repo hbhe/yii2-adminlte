@@ -383,3 +383,193 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1540438956.613
     'REQUEST_TIME' => 1540438956
 ]
+2018-10-25 23:15:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "source//1/BonOOPzj8ZQjwnzG3gH18kmBw53EfB-W.jpg". in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('source//1/BonOO...', Array)
+#1 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-10-25 23:15:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "source//1/BonOOPzj8ZQjwnzG3gH18kmBw53EfB-W.jpg". in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('source//1/BonOO...', Array)
+#1 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-10-25 23:15:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__atuvc' => '2|31'
+    'x-openid' => '8c39c5cf4546f99d0756811f287b2e66002d0f0e2364d11bdcf84d14ec2f7c2fa:2:{i:0;s:8:\"x-openid\";i:1;s:3:\"xyz\";}'
+    'MEIQIA_EXTRA_TRACK_ID' => '17LkZs8cVMibiyM3BXj3ZDGQgyf'
+    'advanced-backend' => 'eba0f85v8sv7kuigeeek5hdmi2'
+    '_csrf-backend' => '102463136866420e4d19f7dcff04e1ce47dce8c3baca3648e00f97db7a876ad0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xbzBAuHgz3vK7dcahpPUjY5EJJblUGD-\";}'
+    '_csrf-rest' => '2e27d3b2bccea93a15bf22137a59d02ebbc3bc412937ab4a43de9a44d3a100b5a:2:{i:0;s:10:\"_csrf-rest\";i:1;s:32:\"Cc8_MrGM4S1WJ0CU_TiP-v76-ZTpik-t\";}'
+    '_identity-backend' => '4e39b11725460128e7db25bbef4076bf998c62e10041d98dadbf4a01da3c98e2a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dte_ZOVsmyGiE4FHgF6TvWz2J0tjtLZN\",2592000]\";}'
+    'PHPSESSID' => 'fbbpuhpu4f9mvrec66tql1ftdg'
+    '_csrf' => '9a012ae96f339626218ee92a8b12edb122c27d70485652c9a3b0c6be2157635fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RA0óù°Ÿ\\……Ò¨(ž£ç!F(6ÔXÓ™G\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-adminlte-backend.mitoto.cn/user/profile'
+    'HTTP_COOKIE' => '__atuvc=2%7C31; x-openid=8c39c5cf4546f99d0756811f287b2e66002d0f0e2364d11bdcf84d14ec2f7c2fa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22x-openid%22%3Bi%3A1%3Bs%3A3%3A%22xyz%22%3B%7D; MEIQIA_EXTRA_TRACK_ID=17LkZs8cVMibiyM3BXj3ZDGQgyf; advanced-backend=eba0f85v8sv7kuigeeek5hdmi2; _csrf-backend=102463136866420e4d19f7dcff04e1ce47dce8c3baca3648e00f97db7a876ad0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xbzBAuHgz3vK7dcahpPUjY5EJJblUGD-%22%3B%7D; _csrf-rest=2e27d3b2bccea93a15bf22137a59d02ebbc3bc412937ab4a43de9a44d3a100b5a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-rest%22%3Bi%3A1%3Bs%3A32%3A%22Cc8_MrGM4S1WJ0CU_TiP-v76-ZTpik-t%22%3B%7D; _identity-backend=4e39b11725460128e7db25bbef4076bf998c62e10041d98dadbf4a01da3c98e2a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dte_ZOVsmyGiE4FHgF6TvWz2J0tjtLZN%22%2C2592000%5D%22%3B%7D; PHPSESSID=fbbpuhpu4f9mvrec66tql1ftdg; _csrf=9a012ae96f339626218ee92a8b12edb122c27d70485652c9a3b0c6be2157635fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R%18A%160%F3%F9%B0%9F%5C%85%9D%85%D2%A8%28%9E%A3%E7%21F%286%D4%1B%19X%D3%1A%99G%12%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\PROGRAM FILES\\JAVA\\JDK1.8.0_121\\BIN;C:\\PROGRAM FILES\\JAVA\\JRE1.8.0_121\\BIN;C:\\PROGRAMDATA\\ORACLE\\JAVA\\JAVAPATH;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;;C:\\XAMPP\\PHP;C:\\PROGRAMDATA\\COMPOSERSETUP\\BIN;C:\\PYTHON27;C:\\PYTHON27\\SCRIPTS;D:\\MSYSGIT\\CMD;C:\\PROGRAM FILES (X86)\\GNU\\GNUPG\\PUB;C:\\USERS\\HBHE\\APPDATA\\ROAMING\\COMPOSER\\VENDOR\\BIN;C:\\XAMPP\\MYSQL\\BIN;C:\\PROGRAM FILES\\MICROSOFT SQL SERVER\\110\\TOOLS\\BINN\\;C:\\PROGRAM FILES (X86)\\MICROSOFT SDKS\\TYPESCRIPT\\1.0\\;C:\\CURL;C:\\XAMPP\\APACHE\\BIN;C:\\PROGRAM FILES\\TORTOISEGIT\\BIN;C:\\PROGRAM FILES\\NODEJS\\;C:\\PROGRAM FILES (X86)\\GTKSHARP\\2.12\\BIN;C:\\PROGRAM FILES\\DOTNET\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\PROGRAM FILES\\JAVA\\JDK1.8.0_121\\BIN;C:\\PROGRAM FILES\\JAVA\\JRE1.8.0_121\\BIN;C:\\PROGRAMDATA\\ORACLE\\JAVA\\JAVAPATH;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;;C:\\XAMPP\\PHP;C:\\PROGRAMDATA\\COMPOSERSETUP\\BIN;C:\\PYTHON27;C:\\PYTHON27\\SCRIPTS;D:\\MSYSGIT\\CMD;C:\\PROGRAM FILES (X86)\\GNU\\GNUPG\\PUB;C:\\USERS\\HBHE\\APPDATA\\ROAMING\\COMPOSER\\VENDOR\\BIN;C:\\XAMPP\\MYSQL\\BIN;C:\\PROGRAM FILES\\MICROSOFT SQL SERVER\\110\\TOOLS\\BINN\\;C:\\PROGRAM FILES (X86)\\MICROSOFT SDKS\\TYPESCRIPT\\1.0\\;C:\\CURL;C:\\XAMPP7\\APACHE\\BIN;C:\\PROGRAM FILES\\TORTOISEGIT\\BIN;C:\\PROGRAM FILES\\NODEJS\\;C:\\PROGRAM FILES (X86)\\GTKSHARP\\2.12\\BIN;C:\\PROGRAM FILES\\DOTNET\\;C:\\Program Files (x86)\\Skype\\Phone\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/7.1.22 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/7.1.22'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/htdocs/yii2-adminlte/storage/web/index.php'
+    'REMOTE_PORT' => '59815'
+    'REDIRECT_URL' => '/yii2-adminlte/storage/web/source//1/BonOOPzj8ZQjwnzG3gH18kmBw53EfB-W.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-adminlte/storage/web/source//1/BonOOPzj8ZQjwnzG3gH18kmBw53EfB-W.jpg'
+    'SCRIPT_NAME' => '/yii2-adminlte/storage/web/index.php'
+    'PHP_SELF' => '/yii2-adminlte/storage/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540480525.311
+    'REQUEST_TIME' => 1540480525
+]
+2018-10-25 23:15:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "source//1/-mWq9EK5HRuu-nvMdcRrFRh0yzP3mVIe.jpg". in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('source//1/-mWq9...', Array)
+#1 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-10-25 23:15:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "source//1/-mWq9EK5HRuu-nvMdcRrFRh0yzP3mVIe.jpg". in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('source//1/-mWq9...', Array)
+#1 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\htdocs\yii2-adminlte\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\htdocs\yii2-adminlte\storage\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-10-25 23:15:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__atuvc' => '2|31'
+    'x-openid' => '8c39c5cf4546f99d0756811f287b2e66002d0f0e2364d11bdcf84d14ec2f7c2fa:2:{i:0;s:8:\"x-openid\";i:1;s:3:\"xyz\";}'
+    'MEIQIA_EXTRA_TRACK_ID' => '17LkZs8cVMibiyM3BXj3ZDGQgyf'
+    'advanced-backend' => 'eba0f85v8sv7kuigeeek5hdmi2'
+    '_csrf-backend' => '102463136866420e4d19f7dcff04e1ce47dce8c3baca3648e00f97db7a876ad0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xbzBAuHgz3vK7dcahpPUjY5EJJblUGD-\";}'
+    '_csrf-rest' => '2e27d3b2bccea93a15bf22137a59d02ebbc3bc412937ab4a43de9a44d3a100b5a:2:{i:0;s:10:\"_csrf-rest\";i:1;s:32:\"Cc8_MrGM4S1WJ0CU_TiP-v76-ZTpik-t\";}'
+    '_identity-backend' => '4e39b11725460128e7db25bbef4076bf998c62e10041d98dadbf4a01da3c98e2a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dte_ZOVsmyGiE4FHgF6TvWz2J0tjtLZN\",2592000]\";}'
+    'PHPSESSID' => 'fbbpuhpu4f9mvrec66tql1ftdg'
+    '_csrf' => '9a012ae96f339626218ee92a8b12edb122c27d70485652c9a3b0c6be2157635fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RA0óù°Ÿ\\……Ò¨(ž£ç!F(6ÔXÓ™G\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-adminlte-backend.mitoto.cn/user/profile'
+    'HTTP_COOKIE' => '__atuvc=2%7C31; x-openid=8c39c5cf4546f99d0756811f287b2e66002d0f0e2364d11bdcf84d14ec2f7c2fa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22x-openid%22%3Bi%3A1%3Bs%3A3%3A%22xyz%22%3B%7D; MEIQIA_EXTRA_TRACK_ID=17LkZs8cVMibiyM3BXj3ZDGQgyf; advanced-backend=eba0f85v8sv7kuigeeek5hdmi2; _csrf-backend=102463136866420e4d19f7dcff04e1ce47dce8c3baca3648e00f97db7a876ad0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xbzBAuHgz3vK7dcahpPUjY5EJJblUGD-%22%3B%7D; _csrf-rest=2e27d3b2bccea93a15bf22137a59d02ebbc3bc412937ab4a43de9a44d3a100b5a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-rest%22%3Bi%3A1%3Bs%3A32%3A%22Cc8_MrGM4S1WJ0CU_TiP-v76-ZTpik-t%22%3B%7D; _identity-backend=4e39b11725460128e7db25bbef4076bf998c62e10041d98dadbf4a01da3c98e2a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dte_ZOVsmyGiE4FHgF6TvWz2J0tjtLZN%22%2C2592000%5D%22%3B%7D; PHPSESSID=fbbpuhpu4f9mvrec66tql1ftdg; _csrf=9a012ae96f339626218ee92a8b12edb122c27d70485652c9a3b0c6be2157635fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R%18A%160%F3%F9%B0%9F%5C%85%9D%85%D2%A8%28%9E%A3%E7%21F%286%D4%1B%19X%D3%1A%99G%12%22%3B%7D'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\PROGRAM FILES\\JAVA\\JDK1.8.0_121\\BIN;C:\\PROGRAM FILES\\JAVA\\JRE1.8.0_121\\BIN;C:\\PROGRAMDATA\\ORACLE\\JAVA\\JAVAPATH;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;;C:\\XAMPP\\PHP;C:\\PROGRAMDATA\\COMPOSERSETUP\\BIN;C:\\PYTHON27;C:\\PYTHON27\\SCRIPTS;D:\\MSYSGIT\\CMD;C:\\PROGRAM FILES (X86)\\GNU\\GNUPG\\PUB;C:\\USERS\\HBHE\\APPDATA\\ROAMING\\COMPOSER\\VENDOR\\BIN;C:\\XAMPP\\MYSQL\\BIN;C:\\PROGRAM FILES\\MICROSOFT SQL SERVER\\110\\TOOLS\\BINN\\;C:\\PROGRAM FILES (X86)\\MICROSOFT SDKS\\TYPESCRIPT\\1.0\\;C:\\CURL;C:\\XAMPP\\APACHE\\BIN;C:\\PROGRAM FILES\\TORTOISEGIT\\BIN;C:\\PROGRAM FILES\\NODEJS\\;C:\\PROGRAM FILES (X86)\\GTKSHARP\\2.12\\BIN;C:\\PROGRAM FILES\\DOTNET\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\PROGRAM FILES\\JAVA\\JDK1.8.0_121\\BIN;C:\\PROGRAM FILES\\JAVA\\JRE1.8.0_121\\BIN;C:\\PROGRAMDATA\\ORACLE\\JAVA\\JAVAPATH;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;;C:\\XAMPP\\PHP;C:\\PROGRAMDATA\\COMPOSERSETUP\\BIN;C:\\PYTHON27;C:\\PYTHON27\\SCRIPTS;D:\\MSYSGIT\\CMD;C:\\PROGRAM FILES (X86)\\GNU\\GNUPG\\PUB;C:\\USERS\\HBHE\\APPDATA\\ROAMING\\COMPOSER\\VENDOR\\BIN;C:\\XAMPP\\MYSQL\\BIN;C:\\PROGRAM FILES\\MICROSOFT SQL SERVER\\110\\TOOLS\\BINN\\;C:\\PROGRAM FILES (X86)\\MICROSOFT SDKS\\TYPESCRIPT\\1.0\\;C:\\CURL;C:\\XAMPP7\\APACHE\\BIN;C:\\PROGRAM FILES\\TORTOISEGIT\\BIN;C:\\PROGRAM FILES\\NODEJS\\;C:\\PROGRAM FILES (X86)\\GTKSHARP\\2.12\\BIN;C:\\PROGRAM FILES\\DOTNET\\;C:\\Program Files (x86)\\Skype\\Phone\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/7.1.22 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/7.1.22'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/htdocs/yii2-adminlte/storage/web/index.php'
+    'REMOTE_PORT' => '59817'
+    'REDIRECT_URL' => '/yii2-adminlte/storage/web/source//1/-mWq9EK5HRuu-nvMdcRrFRh0yzP3mVIe.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-adminlte/storage/web/source//1/-mWq9EK5HRuu-nvMdcRrFRh0yzP3mVIe.jpg'
+    'SCRIPT_NAME' => '/yii2-adminlte/storage/web/index.php'
+    'PHP_SELF' => '/yii2-adminlte/storage/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540480543.888
+    'REQUEST_TIME' => 1540480543
+]
