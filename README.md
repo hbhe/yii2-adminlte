@@ -1,15 +1,15 @@
 ##本项的目的是在用Yii2开发时有一个好的起点！它采用advanced目录结构, 基于adminlte后台模板, 提供常用的模块. 
 
 #基本功能模块：
-    后台用户管理
-    后台用户操作日志
-    网站参数设置
-    角色权限管理
-    REST API配置就绪
+    - 后台用户管理
+    - 后台用户操作日志
+    - 网站参数设置
+    - 角色权限管理
+    - REST API配置就绪
 
 #可选模块    
-    文章管理
-    微信公众号(TODO)
+    - 文章管理
+    - 微信公众号(TODO)
 
 
 
@@ -120,9 +120,9 @@ php init
 5. 执行数据库初始化脚本
 ```
 cd console
-php yii migrate --migrationPath=@yii/rbac/migrations                     // yii migrate/down 3 --migrationPath=@yii/rbac/migrations          
-php yii migrate --migrationPath=@mdm/admin/migrations                    // yii migrate/down 2  --migrationPath=@mdm/admin/migrations
-php yii migrate --migrationPath=@noam148/imagemanager/migrations          // yii migrate/down 2 --migrationPath=@noam148/imagemanager/migrations
+php yii migrate --migrationPath=@yii/rbac/migrations                        // yii migrate/down 3 --migrationPath=@yii/rbac/migrations          
+php yii migrate --migrationPath=@mdm/admin/migrations                       // yii migrate/down 2  --migrationPath=@mdm/admin/migrations
+php yii migrate --migrationPath=@noam148/imagemanager/migrations            // yii migrate/down 2 --migrationPath=@noam148/imagemanager/migrations
 php yii migrate/up --migrationPath=@common/modules/content/migrations 
 php yii migrate/up
 ```
