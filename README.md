@@ -116,7 +116,7 @@ php init
             'enableSchemaCache' => !YII_DEBUG,
         ],
     ]
-
+```
 5. 执行数据库初始化脚本
 ```
 cd console
@@ -136,4 +136,6 @@ location / {
 
 Note: This project is inspired by yii2-starter-kit, I just need a light and clean advanced-app with adminlte template.
 
-DEMO 后台管理账号
+
+DEMO 地址
+后台管理账号
