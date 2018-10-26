@@ -136,10 +136,17 @@ location / {
 
 Note: This project is inspired by yii2-starter-kit, I just need a light and clean advanced-app with adminlte template.
 
+图片域名: yii2-adminlte-storage.mitoto.cn
 
-DEMO 地址:  yii2-adminlte-backend.mitoto.cn
-后台管理账号： webmaster
+API域名: yii2-adminlte-api.mitoto.cn
+
+
+###############
+
+DEMO演示地址:  http://yii2-adminlte-backend.mitoto.cn
+
+账号： webmaster
+
 密码: webmaster
 
-yii2-adminlte-storage.mitoto.cn
-yii2-adminlte-api.mitoto.cn
+
