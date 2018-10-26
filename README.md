@@ -120,9 +120,9 @@ php init
 ```
 5. 执行数据库初始化脚本
 ```
-php yii migrate --migrationPath=@yii/rbac/migrations                        // yii migrate/down 3 --migrationPath=@yii/rbac/migrations          
-php yii migrate --migrationPath=@mdm/admin/migrations                       // yii migrate/down 2  --migrationPath=@mdm/admin/migrations
-php yii migrate --migrationPath=@noam148/imagemanager/migrations            // yii migrate/down 2 --migrationPath=@noam148/imagemanager/migrations
+php yii migrate --migrationPath=@yii/rbac/migrations 
+php yii migrate --migrationPath=@mdm/admin/migrations
+php yii migrate --migrationPath=@noam148/imagemanager/migrations
 php yii migrate/up --migrationPath=@common/modules/content/migrations 
 php yii migrate/up --migrationPath=@hbhe/settings/migrations
 php yii migrate/up
