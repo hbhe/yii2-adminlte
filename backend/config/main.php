@@ -32,6 +32,10 @@ return [
             echo 'DEMO中请勿修改默认用户, 请创建新的用户进行体验!';
             Yii::$app->end();
         }
+        if (in_array($event->action->controller->id, ['article', 'article-category']) && in_array($event->action->id, ['delete']) && in_array(Yii::$app->request->get('id'), [1, 2, 3]) && Yii::$app->request->isPost) {
+            echo 'DEMO中请勿修改默认用户, 请创建新的文章或分类进行体验!';
+            Yii::$app->end();
+        }
     },
 
     'container' => [
