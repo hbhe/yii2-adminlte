@@ -5,8 +5,10 @@ return [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=yii2adminlte',
             'username' => 'root',
-            'password' => 'xxx',
+            'password' => '',
+            'tablePrefix' => 'ya_',
             'charset' => 'utf8',
+            'enableSchemaCache' => !YII_DEBUG,
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',

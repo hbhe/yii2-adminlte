@@ -89,11 +89,17 @@ return [
             'class' => trntv\filekit\Storage::class,
             'baseUrl' => '@storageUrl/source',
             //'baseUrl' => '@backendUrl/storage/source',
-            'filesystemComponent'=> 'fs', // 内部使用fs组件保存上传的文件
+           // 'filesystemComponent'=> 'fs', // 内部使用fs组件保存上传的文件
 //            'filesystem'=> function() {
 //                $adapter = new \League\Flysystem\Adapter\Local(Yii::getAlias('@storage/web/source'));
 //                return new League\Flysystem\Filesystem($adapter);
-//            }
+//            },
+            'filesystem' => [
+                'class' => common\components\filesystem\LocalFlysystemBuilder::class,
+                'path' => '@storage/web/source',
+                //'path' => '@backend/web/storage/source',
+            ],
+
 //            'as log' => [
 //                'class' => common\behaviors\FileStorageLogBehavior::class,
 //                'component' => 'fileStorage'
