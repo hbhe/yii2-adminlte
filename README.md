@@ -15,14 +15,7 @@
 
 
 
-目录结构
--------------------
-
-
-CREATE DATABASE yii2adminlte DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-
 ## 目录结构
-
 
 ```
 common
@@ -84,7 +77,6 @@ environments/            环境文件
 
 1. 克隆代码到本地目录如yii2-adminlte
 ```
-cd yii2-adminlte
 git clone https://github/hbhe/yii2-adminlte.git
 composer install
 ```
@@ -112,7 +104,7 @@ php init
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=yii2adminlte',
             'username' => 'root',
-            'password' => '',
+            'password' => 'dbpassword',
             'tablePrefix' => 'ya_',
             'charset' => 'utf8',
             'enableSchemaCache' => !YII_DEBUG,
