@@ -16,7 +16,8 @@ use yii\web\UploadedFile;
  *
  * 文章列表
  * 127.0.0.1/yii2-adminlte/rest/web/v1/articles?status=1&article_category_id=1
- * 127.0.0.1/yii2-adminlte/rest/web/v1/articles?status=1
+ * 127.0.0.1/yii2-adminlte/rest/web/v1/articles
+ * http://yii2-adminlte-rest.mitoto.cn/v1/articles
  *
  * 文章详情
  * http://127.0.0.1/yii2-adminlte/rest/web/v1/articles/1?expand=articleCategory

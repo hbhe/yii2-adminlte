@@ -18,10 +18,10 @@ use yii\web\UploadedFile;
  * @package rest\modules\v1\controllers
  *
  * 资讯分类列表
- * 127.0.0.1/cc/rest/web/v1/article-categories
+ * 127.0.0.1/yii2-adminlte/rest/web/v1/article-categories
  *
  * 资讯分类详情
- * 127.0.0.1/cc/rest/web/v1/article-categories/1
+ * 127.0.0.1/yii2-adminlte/rest/web/v1/article-categories/1
  *
  */
 class ArticleCategoryController extends ActiveController
