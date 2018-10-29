@@ -58,7 +58,7 @@ class UserController extends Controller
                         $img = ImageManagerStatic::make($file->read())->fit(215, 215);
                         $file->put($img->encode());
                     } else {
-                        $fs = $event->filesystem; // ?: $event->filesystem;
+                        $fs = $event->filesystem;
                         $img = ImageManagerStatic::make($fs->read($event->path))->fit(215, 215);
                         $fs->put($event->path, $img->encode());
                     }

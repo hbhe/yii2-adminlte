@@ -4,6 +4,7 @@ return [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
         //'@hbhe/settings' => '@vendor/hbhe/yii2-settings',
+        //'@frontendUrl' => $params['frontendUrl'],
     ],
     'language' => 'zh-CN',
     'timeZone' => 'Asia/Shanghai',
@@ -77,29 +78,24 @@ return [
             'ruleTable' => '{{%rbac_auth_rule}}'
         ],
 
-        // 文件系统组件
+        /*
         'fs' => [
             'class' => 'creocoder\flysystem\LocalFilesystem',
             'path' => '@storage/web/source'
             //'path' => '@backend/web/storage/source',
         ],
+        */
 
         // 此组件与 trntv\filekit\actions\UploadAction 配套使用
         'fileStorage' => [
             'class' => trntv\filekit\Storage::class,
             'baseUrl' => '@storageUrl/source',
             //'baseUrl' => '@backendUrl/storage/source',
-           // 'filesystemComponent'=> 'fs', // 内部使用fs组件保存上传的文件
-//            'filesystem'=> function() {
-//                $adapter = new \League\Flysystem\Adapter\Local(Yii::getAlias('@storage/web/source'));
-//                return new League\Flysystem\Filesystem($adapter);
-//            },
-            'filesystem' => [
-                'class' => common\components\filesystem\LocalFlysystemBuilder::class,
-                'path' => '@storage/web/source',
-                //'path' => '@backend/web/storage/source',
-            ],
-
+            //'filesystemComponent'=> 'fs', // 内部使用fs组件保存上传的文件
+            'filesystem'=> function() {
+                $adapter = new \League\Flysystem\Adapter\Local(Yii::getAlias('@storage/web/source'));
+                return new League\Flysystem\Filesystem($adapter);
+            },
 //            'as log' => [
 //                'class' => common\behaviors\FileStorageLogBehavior::class,
 //                'component' => 'fileStorage'

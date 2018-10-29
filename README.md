@@ -97,7 +97,7 @@ CREATE DATABASE yii2adminlte DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_gener
 php init
 ```
 
-5. 配置本地main-local参数, 主要是数据库参数
+5. 修改 common/config/main-local.php, 主要是修改数据库参数
 ```
     'components' => [
         'db' => [
@@ -111,13 +111,23 @@ php init
         ],
     ]
 ```
-5. 执行数据库初始化脚本
+
+检查 common/config/bootstrap.php, 看是否需要修改路径
+```
+Yii::setAlias('@frontendUrl', YII_ENV_DEV ? 'http://127.0.0.1/yii2-adminlte/frontend/web/' : 'http://yii2-adminlte-frontend.xxx.cn');
+Yii::setAlias('@backendUrl', YII_ENV_DEV ? 'http://127.0.0.1/yii2-adminlte/backend/web/' : 'http://yii2-adminlte-backend.xxx.cn');
+Yii::setAlias('@storageUrl', YII_ENV_DEV ? 'http://127.0.0.1/yii2-adminlte/storage/web/' : 'http://yii2-adminlte-storage.xxx.cn');
+Yii::setAlias('@restUrl', YII_ENV_DEV ? 'http://127.0.0.1/yii2-adminlte/rest/web/' : 'http://yii2-adminlte-rest.xxx.cn');
+Yii::setAlias('@wapUrl', YII_ENV_DEV ? 'http://127.0.0.1/yii2-adminlte/wap/web/' : 'http://yii2-adminlte-wap.xxx.cn');
+```
+
+6. 执行数据库初始化脚本
 ```
 php yii migrate --migrationPath=@yii/rbac/migrations 
 php yii migrate --migrationPath=@mdm/admin/migrations
 php yii migrate --migrationPath=@noam148/imagemanager/migrations
-php yii migrate/up --migrationPath=@common/modules/content/migrations 
 php yii migrate/up --migrationPath=@hbhe/settings/migrations
+php yii migrate/up --migrationPath=@common/modules/content/migrations 
 php yii migrate/up
 ```
 
