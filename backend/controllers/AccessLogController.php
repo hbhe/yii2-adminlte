@@ -5,7 +5,7 @@ namespace backend\controllers;
 use Yii;
 use common\models\AccessLog;
 use common\models\AccessLogSearch;
-use common\base\Controller;
+use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Url;
@@ -39,7 +39,6 @@ class AccessLogController extends Controller
         Yii::$app->user->setReturnUrl(Url::current());
         $searchModel = new AccessLogSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-Yii::error(['xxx', $_GET, $_POST]);
         if (Yii::$app->request->isPost) {
             $ids = Yii::$app->request->post('selection');
             if (Yii::$app->request->post('delete')) {

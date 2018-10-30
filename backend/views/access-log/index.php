@@ -1,7 +1,7 @@
 <?php
 
-use common\base\ActiveForm;
-use common\base\GridView;
+use yii\bootstrap\ActiveForm;
+use yii\grid\GridView;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
